@@ -7,3 +7,6 @@ dependencies:
  - numpy
  - pip
  - jupyter
+ - pip:
+   - azure-digitaltwins-core
+   - azure-identity

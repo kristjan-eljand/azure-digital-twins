@@ -1,0 +1,23 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:com:example:EV;1",
+  "@type": "Interface",
+  "displayName": "EV",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "chargingRate",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "isCharging",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "soc",
+      "schema": "float"
+    }
+  ]
+}
