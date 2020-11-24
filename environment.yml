@@ -1,0 +1,9 @@
+name: digital-twin
+channels:
+ - defaults
+dependencies:
+ - python=3.7
+ - pandas
+ - numpy
+ - pip
+ - jupyter
